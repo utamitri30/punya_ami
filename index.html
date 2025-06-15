@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page WebGIS Kabupaten Cilacap</title>
+    <link rel="stylesheet" href="css/style.css">
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<!-- Leaflet Plugins -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet-easybutton@2.4.0/src/easy-button.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.locatecontrol/dist/L.Control.Locate.min.css" />
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" />
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<!-- Header -->
+<header id="navbar"> 
+  <div class="container"> 
+    <div class="logo"> 
+      <img src="asset/logo.png" alt="logo"> 
+      <img src="asset/pariwisata.png" alt="logo samping"> 
+      <h1>KABUPATEN CILACAP</h1> 
+    </div> 
+    <nav> 
+      <ul> 
+        <li><a href="index.html">BERANDA</a></li> 
+        <li><a href="https://utamitri30.github.io/peta_kearifan/index.html#10/-7.6225/109.1906">PETA</a></li>
+        <li><a href="data.html#data-section">DATA</a></li>
+        <li><a href="#author-section">PENGEMBANG</a></li> 
+      </ul> 
+    </nav> 
+  </div> 
+</header>
+
+<!-- Hero Section -->
+<section id="hero-section" class="hero-section">
+  <div class="hero-container">
+    <!-- Teks di kiri -->
+    <div class="hero-text">
+      <h1>GATRA JALA BHUMI WIJAYAKUSUMA</h1>
+      <p>
+“Gatra Jala Bumi Wijayakusuma” merupakan semboyan yang mencerminkan kekayaan alam dan budaya Kabupaten Cilacap.
+Gatra berarti unsur penting, Jala menggambarkan laut dan perairan Cilacap, Bumi melambangkan daratan yang subur, dan Wijayakusuma adalah simbol kejayaan serta kearifan spiritual masyarakat lokal.
+Semboyan ini merepresentasikan harmoni antara laut dan darat, antara alam dan budaya, serta mengajak masyarakat untuk menjaga kelestarian lingkungan dan warisan budaya dengan penuh kebijaksanaan.
+      </p>
+      <a href="https://utamitri30.github.io/peta_kearifan/index.html#10/-7.6225/109.1906" class="hero-button">Peta Wisata</a>
+    </div>
+
+    <!-- Video YouTube di kanan -->
+    <div class="hero-video hero-overlay-box">
+      <iframe src="https://www.youtube.com/embed/UG_fldNtTZ4?si=XNqrFRfp4nrs7nn0"
+        title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Data Section -->
+<div id="data-section">
+    <h2 class="section-title"> NGURI-NGURI BUDAYA KEARIFAN WONG GUNUNG LAN SEGORO</h2>
+    
+    <div class="three-box-layout">
+        
+        <!-- KIRI -->
+        <div class="left-column">
+            
+            <!-- Kiri Atas -->
+            <div class="info-card small">
+                <img src="asset/wisata_cilacap.webp" alt="Pariwisata">
+                <h3>Pariwisata</h3>
+                <p>
+                    Kabupaten Cilacap di ujung selatan Jawa Tengah menawarkan keindahan alam yang beragam, mulai dari Pantai Teluk Penyu dengan pasir hitamnya yang unik, hingga Pulau Nusakambangan yang masih alami dengan hutan tropis dan pantai sepi. Di daratan, terdapat air terjun indah seperti Curug Mandala dan Curug Cimandaway yang dikelilingi hutan hijau dan udara sejuk.
+                </p>
+            </div>
+            
+            <!-- Kiri Bawah -->
+            <div class="info-card small">
+                <img src="asset/sedekahlaut.jpeg" alt="Kebudayaan">
+                <h3>Kebudayaan</h3>
+                <p>
+ Sedekah Laut adalah tradisi budaya yang rutin dilakukan oleh masyarakat pesisir Kabupaten Cilacap sebagai ungkapan rasa syukur kepada Tuhan atas hasil laut yang diberikan dan sebagai bentuk doa agar nelayan selalu mendapat keselamatan dan keberkahan saat melaut.
+                </p>
+            </div>
+            
+        </div>
+        
+        <!-- KANAN full tinggi -->
+        <div class="right-column">
+            <div class="info-card full-height">
+                
+                <!-- Embed YouTube Video -->
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/oxYVBE3-6Cg"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                
+                <h3>Sejarah Kabupaten Cilacap</h3>
+                <p>
+                    Toponimi “Cilacap” melalui proses dan waktu yang sangat panjang. Nama “Cilacap”
+yang ada pada saat ini merupakan nama yang relatif lebih muda dari nama “Handauan” (saat
+ini Donan). Donan adalah cikal bakal terbentuknya Cilacap. Nama “Cilacap” di dalamnya
+terkandung dua budaya yang berbeda, yaitu budaya Sunda dan budaya Jawa. “Cilacap”
+berasal dari kata ci kependekan dari kata cai ‘air’ dalam bahasa Sunda, dan tlacap atau lacap
+yang berarti suara, bunyi-bunyian, atau tanah yang menjorok ke (air) laut, dalam bahasa
+Jawa
+                </p>
+                
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+     <!--Author Section-->
+<!-- Author & Footer Section -->
+<footer class="footer" id="author-section">
+  <div class="footer-container">
+    <!-- Kolom 1: Profil Pembuat -->
+    <div class="footer-column">
+      <img src="asset/profile.jpg" alt="Foto Profil" class="footer-profile">
+      <h3>Tri Utami</h3>
+      <p>Mahasiswa Sains Informasi Geografi, UPI. Memiliki minat dalam bidang SIG, penginderaan jauh, WebGIS, mitigasi bencana, serta informatika. Komunikatif, mampu mengelola waktu dengan baik, dan bersemangat menjadi analis SIG profesional.</p>
+      <p><i class="fa fa-envelope"></i> triutamii301205@gmail.com</p>
+      <p><i class="fa fa-phone"></i> +62 821-8946-154</p>
+    </div>
+
+    <!-- Kolom 2: Link Terkait -->
+    <div class="footer-column">
+      <h4>Link Terkait</h4>
+      <ul>
+        <li><a href="#">WebGIS UPI</a></li>
+        <li><a href="https://disporapar.cilacapkab.go.id/" target="_blank" rel="noopener noreferrer">Dinas Pemuda dan Olahraga dan Pariwisata</a></li>
+       <li><a href="https://saig.upi.edu/" target="_blank" rel="noopener noreferrer">Sains Informasi Geografi</a></li>
+
+      </ul>
+    </div>
+
+    <!-- Kolom 3: Unduh dan Survei -->
+    <div class="footer-column">
+      <h4>Unduh</h4>
+      <ul>
+        <li><a href="#">CV</a></li>
+        <li><a href="#">Portofolio</a></li>
+      </ul>
+      <h4>Survei</h4>
+      <ul>
+<li><a href="https://forms.gle/Zr6SqGTfZvSEK85K6" target="_blank" rel="noopener noreferrer">Kepuasan Pengguna</a></li>
+      </ul>
+    </div>
+
+    <!-- Kolom 4: Statistik -->
+    <div class="footer-column">
+      <h4>Statistik Kunjungan</h4>
+      <p>Pengunjung: 10.000+</p>
+      <p>Hari Ini: 153</p>
+      <p>Rata-rata Harian: 120</p>
+    </div>
+  </div>
+
+  <!-- Bagian Bawah -->
+  <div class="footer-bottom">
+    <div class="social-icons">
+<!-- Tambahkan di <head> jika belum ada -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Link YouTube dengan ikon -->
+<a href="https://www.youtube.com/@Amilifestories" target="_blank" aria-label="YouTube">
+  <i class="fab fa-youtube"></i>
+</a>
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Tautan Instagram -->
+<a href="https://www.instagram.com/amilifestories"
+   target="_blank"
+   aria-label="Instagram">
+  <i class="fab fa-instagram"></i>
+</a>
+    </div>
+    <p>©2025 - Tri Utami | Sains Informasi Geografi - Universitas Pendidikan Indonesia</p>
+  </div>
+</footer>
+
+
+</body>
+</html>

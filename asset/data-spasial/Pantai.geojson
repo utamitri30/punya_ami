@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Pantai",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Nama_tempa": "Wisata Hutan Payau", "rating": 4.2, "entahlah": -812.0, "jenis": "Tourist attraction", "latitude": -7.6678176, "longitude": 109.0292075 }, "geometry": { "type": "Point", "coordinates": [ 109.029207500000041, -7.667817599999978 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Pantai Sodong", "rating": 4.1, "entahlah": -5515.0, "jenis": "Tourist attraction", "latitude": -7.6913293, "longitude": 109.1754562 }, "geometry": { "type": "Point", "coordinates": [ 109.175456200000042, -7.69132929999995 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Wisata Pantai Sodong", "rating": 4.5, "entahlah": -67.0, "jenis": "Tourist attraction", "latitude": -7.6874409, "longitude": 109.1849375 }, "geometry": { "type": "Point", "coordinates": [ 109.184937500000046, -7.687440899999956 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Kemiren Beach", "rating": 4.4, "entahlah": -1458.0, "jenis": "Tourist attraction", "latitude": -7.7004255, "longitude": 109.0515073 }, "geometry": { "type": "Point", "coordinates": [ 109.051507300000083, -7.700425499999938 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Pantai Teluk Penyu Cilacap", "rating": 4.3, "entahlah": -3.75, "jenis": "Beach", "latitude": -7.7338402, "longitude": 109.0217855 }, "geometry": { "type": "Point", "coordinates": [ 109.021785500000078, -7.733840199999975 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Pantai Karang Bandung", "rating": 4.7, "entahlah": -33.0, "jenis": "Tourist attraction", "latitude": -7.7776546, "longitude": 109.0451146 }, "geometry": { "type": "Point", "coordinates": [ 109.045114600000034, -7.777654599999948 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Ketapang Indah Beach", "rating": 4.3, "entahlah": -521.0, "jenis": "Tourist attraction", "latitude": -7.7010626, "longitude": 109.2925644 }, "geometry": { "type": "Point", "coordinates": [ 109.29256440000006, -7.701062599999943 ] } }
+]
+}

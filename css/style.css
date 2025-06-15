@@ -1,0 +1,464 @@
+styles.css
+
+/* Style Kerangka Secara Umum */ 
+html { 
+    scroll-behavior: smooth; 
+    font-family: sans-serif; 
+    caret-color: transparent; 
+} 
+ 
+body { 
+    font-family: sans-serif; 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+/* Seluruh Komponen Pada Header */ 
+.logo { 
+    display: flex; /* Use flexbox */ 
+    align-items: center; /* Align items vertically */ 
+} 
+ 
+.logo img { 
+    width: 80px; /* Set the width of the logo */ 
+    margin-right: 10px; /* Add some space between the image and title */ 
+} 
+ 
+.logo h1 { 
+    margin: 0; 
+    font-size: 24px; 
+    font-weight: bold; 
+} 
+ 
+header nav { 
+    display: flex; 
+    justify-content: flex-start; 
+} 
+ 
+header nav a { 
+    color:#E8EBD2; 
+    text-decoration:none; 
+    font-weight: bold; 
+    margin: 0 20px; 
+} 
+#navbar { 
+    background-color: #50a0f1; /* Soft blue color without transparency */ 
+    color: #E8EBD2; 
+    padding: 20px 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    z-index: 999; 
+    border-bottom: 2px solid #333; 
+    font-family: 'Montserrat', sans-serif; 
+    transition: background-color 0.3s ease; /* Smooth transition for background color */ 
+} 
+.container { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+} 
+ 
+.logo h1 { 
+    margin: 0; 
+    font-size: 24px; 
+    font-weight: bold; 
+} 
+ 
+nav ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+} 
+ 
+nav ul li { 
+    display: inline; 
+    margin-left: 20px; 
+} 
+ 
+nav ul li:first-child { 
+    margin-left: 0; 
+} 
+ 
+nav ul li a { 
+    color: #E8EBD2; 
+    text-decoration: none; 
+    font-size: 16px; 
+    position: relative; /* Needed for pseudo-element positioning */ 
+} 
+ 
+nav ul li a::before { 
+    content: ''; 
+    position: absolute; 
+    top: -7px; /* Move the pseudo-element up by half of the hover size */ 
+    left: -7px; /* Move the pseudo-element left by half of the hover size */ 
+    width: calc(100% + 14px); /* Expand the width by 14 pixels (7px on each side) */ 
+    height: calc(100% + 14px); /* Expand the height by 14 pixels (7px on each side) */ 
+    background-color: #80bfff; /* Background color without transparency */ 
+    border-radius: 10px; /* Rounded corners */ 
+    z-index: -1; /* Behind the text */ 
+    transition: background-color 0.3s ease; /* Smooth transition for background color */ 
+} 
+ 
+nav ul li a:hover::before { 
+    background-color: #E8EBD2; /* Adjusted hover color without transparency */ 
+} 
+ 
+nav ul li a:hover {
+    color: #80bfff; /* Adjusted font color to match hover color */ 
+} 
+/* Hero section dengan background gambar */ 
+.hero-section { 
+    margin-top: 60px; /* Adjust margin to make room for fixed navbar */ 
+    background-image: 
+url('https://images.squarespace-cdn.com/content/v1/573bc8bcab48de2bf6c90d02/1666939154794-HS6QIIP9PDMHRQ84W2ZT/PLTU+Cilacap.jpg?format=2500w'); /* Replace 
+'city-background.jpg' with your image */ 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: rgb(243, 240, 240); 
+    text-align: center; 
+} 
+/* Flex container kiri-kanan */
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+  z-index: 1; /* supaya konten tampil di atas background */
+}
+
+/* Teks di kiri */
+.hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.hero-button {
+  background-color: #61d2f5;
+  color: rgb(255, 255, 255);
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.1em;
+  display: inline-block;
+}
+
+.hero-button:hover {
+  background-color: #61d2f5;
+}
+
+/* Video di kanan */
+.hero-video {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-video iframe {
+  width: 100%;
+  height: 315px;
+  border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-video iframe {
+    height: 250px;
+  }
+
+  .hero-text h1 {
+    font-size: 2em;
+  }
+
+  .hero-text p {
+    font-size: 1em;
+  }
+}
+
+/* Map Section */
+#map-section {
+    text-align: center;
+    margin: 60px 0;
+}
+
+#map-section h2 {
+    font-size: 24px;
+    margin: 20px 0 20px 0; /* top:20px, right:0, bottom:20px, left:0 */
+}
+
+#map { 
+    width: 95%; 
+    height: 600px; /* sesuaikan tinggi peta */
+    background-color: lightgray; 
+    margin: 40px auto; /* pusatkan dan beri jarak */
+    border: 2px solid #83d1ff; /* border biru muda */
+    border-radius: 10px; 
+    overflow: hidden; 
+    position: relative; 
+    z-index: 1; 
+}
+
+/* Data Section Styles */
+#data-section {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#data-section .section-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.three-box-layout {
+    display: flex;
+    gap: 20px;
+    align-items: stretch; /* supaya kolom sama tinggi */
+    flex-wrap: wrap; /* agar responsive di layar kecil */
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex: 1;
+    min-width: 300px;
+}
+
+.right-column {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.info-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.info-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #222;
+}
+
+.info-card p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+    flex-grow: 1;
+}
+
+/* Ukuran Kustom */
+.info-card.small {
+    height: 300px;
+}
+
+.info-card.full-height {
+    flex: 1; /* supaya memanjang ke bawah */
+}
+
+/* Responsive YouTube Video */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* Responsive Breakpoint */
+@media (max-width: 768px) {
+    .three-box-layout {
+        flex-direction: column;
+    }
+
+    .left-column,
+    .right-column {
+        flex: none;
+        width: 100%;
+    }
+
+    .info-card.small {
+        height: auto; /* biar fleksibel di HP */
+    }
+
+    .info-card.full-height {
+        height: auto;
+    }
+}
+
+    /* Author Section */ 
+.footer {
+  background: linear-gradient(to right, #0e2982, #48b7cb);
+  color: white;
+  padding: 40px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-column h4 {
+  border-bottom: 2px solid #6ed9fa;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 6px;
+}
+
+.footer-column ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-profile {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #fff;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+a[aria-label="YouTube"] i {
+  font-size: 24px;
+  color: #fff; /* putih default */
+  transition: color 0.3s ease;
+}
+
+a[aria-label="YouTube"]:hover i {
+  color: #FF0000; /* merah saat hover */
+}
+
+.social-icons a:hover {
+  color: #c8ffb0;
+}
+a[aria-label="Instagram"] i {
+  font-size: 24px;   /* ukuran ikon */
+  color: #ffffff;    /* ganti sesuai kebutuhan */
+  transition: color 0.3s ease;
+}
+
+a[aria-label="Instagram"]:hover i {
+  color: #fccc63;    /* warna saat hover */
+}
+
+
+/* Style Legenda */
+.legend {
+    background: white;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.3);
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    max-width: 260px;
+}
+
+.legend-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.legend-section {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Budaya",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Nama_tempa": "Benteng Pendem Cilacap", "rating": 4.3, "entahlah": -8.24, "jenis": "Tourist attraction", "latitude": -7.7488894, "longitude": 109.0189604 }, "geometry": { "type": "Point", "coordinates": [ 109.018960400000083, -7.748889399999939 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Tugu Perbatasan Kabupaten Cilacap", "rating": 4.3, "entahlah": -224.0, "jenis": "Tourist attraction", "latitude": -7.5590744, "longitude": 109.0325146 }, "geometry": { "type": "Point", "coordinates": [ 109.03251460000007, -7.559074399999929 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Cagar Budaya Watu Lingga", "rating": 4.3, "entahlah": -6.0, "jenis": "Tourist attraction", "latitude": -7.5926407, "longitude": 109.1151267 }, "geometry": { "type": "Point", "coordinates": [ 109.115126700000076, -7.592640699999947 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Benteng Karang Bolong", "rating": 4.8, "entahlah": -26.0, "jenis": "Historical landmark", "latitude": -7.7604191, "longitude": 109.0432478 }, "geometry": { "type": "Point", "coordinates": [ 109.043247800000074, -7.760419099999979 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Museum Soesilo Soedarman", "rating": 4.5, "entahlah": -1176.0, "jenis": "Tourist attraction", "latitude": -7.6005253, "longitude": 109.212001 }, "geometry": { "type": "Point", "coordinates": [ 109.212001, -7.600525299999958 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Benteng Jepang", "rating": 4.0, "entahlah": -27.0, "jenis": "Historical landmark", "latitude": -7.68252, "longitude": 109.17178 }, "geometry": { "type": "Point", "coordinates": [ 109.17178, -7.68252 ] } }
+]
+}

@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Wisata Alam",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Nama_tempa": "Wisata Alam LMDH Salamsari Cilempuyang", "rating": 3.9, "entahlah": -56, "jenis": "Botanical garden", "latitude": -7.3334416, "longitude": 108.8262527 }, "geometry": { "type": "Point", "coordinates": [ 108.826252700000055, -7.333441599999958 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Wisata Gunung Selok", "rating": 4.3, "entahlah": -655, "jenis": "Tourist attraction", "latitude": -7.685623, "longitude": 109.1727962 }, "geometry": { "type": "Point", "coordinates": [ 109.17279620000005, -7.685623 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Kemit Forest Education", "rating": 4.2, "entahlah": -4392, "jenis": "Tourist attraction", "latitude": -7.4670624, "longitude": 108.8404785 }, "geometry": { "type": "Point", "coordinates": [ 108.840478500000074, -7.467062399999975 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Havana Hills", "rating": 4.4, "entahlah": -1486, "jenis": "Tourist attraction", "latitude": -7.61375, "longitude": 109.01405 }, "geometry": { "type": "Point", "coordinates": [ 109.01405, -7.61375 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Curug Mandala", "rating": 4.0, "entahlah": -274, "jenis": "Tourist attraction", "latitude": -7.5905124, "longitude": 109.0543166 }, "geometry": { "type": "Point", "coordinates": [ 109.05431660000005, -7.590512399999966 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Wisata Cigimbal Park", "rating": 4.2, "entahlah": -148, "jenis": "Tourist attraction", "latitude": -7.6622717, "longitude": 109.0346533 }, "geometry": { "type": "Point", "coordinates": [ 109.034653300000059, -7.662271699999962 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Gunung Srandil", "rating": 4.5, "entahlah": -452, "jenis": "Tourist attraction", "latitude": -7.9247222, "longitude": 112.4886111 }, "geometry": { "type": "Point", "coordinates": [ 112.488611100000071, -7.924722199999962 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Alun-Alun Cilacap", "rating": 4.7, "entahlah": -5247, "jenis": "Historical landmark", "latitude": -7.727278, "longitude": 109.0095177 }, "geometry": { "type": "Point", "coordinates": [ 109.00951770000006, -7.727278 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Taman Pesona Rengganis", "rating": 4.3, "entahlah": -284, "jenis": "Tourist attraction", "latitude": -7.5088146, "longitude": 108.787767 }, "geometry": { "type": "Point", "coordinates": [ 108.787767, -7.508814599999937 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Waduk Kubangkangkung", "rating": 4.1, "entahlah": -1697, "jenis": "National reserve", "latitude": -7.61487, "longitude": 108.9604996 }, "geometry": { "type": "Point", "coordinates": [ 108.960499600000048, -7.61487 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Curug Geulis Cisuru", "rating": 4.4, "entahlah": -17, "jenis": "Tourist attraction", "latitude": -7.3887069, "longitude": 108.739206 }, "geometry": { "type": "Point", "coordinates": [ 108.739206, -7.388706899999931 ] } },
+{ "type": "Feature", "properties": { "Nama_tempa": "Wisata kutawaru", "rating": 4.3, "entahlah": -11, "jenis": "Photographer", "latitude": -7.6977535, "longitude": 108.9907274 }, "geometry": { "type": "Point", "coordinates": [ 108.990727400000083, -7.697753499999976 ] } }
+]
+}
